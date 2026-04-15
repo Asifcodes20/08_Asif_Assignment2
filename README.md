@@ -1,36 +1,24 @@
-#  Assignment Title
+# Assignment 2: Sentiment Analysis - MS Dhoni
 
-## (1) Problem Statement
-Describe the problem.
+## Student Details
+* **Name:** ANSARI MOHD ASIF MOHD MUSLIM
+* **Roll No:** 08
+* **uin :231A028
+* **Course:** TE (2025-26) - Data Analytics and Visualization
 
-## (2) Objective
-- Define the goal.
+## Project Overview
+This repository contains the dataset, code, and final report for Assignment 2. The objective was to perform sentiment analysis on 100 tweets related to MS Dhoni.
 
-## (3) Dataset
-- Source:
-- Features:
-- Size:
+## Methodology
+1. **Data Collection:** Collected 100 tweets and manually labelled them as Positive, Negative, or Neutral.
+2. **Data Split:** The dataset was split into 80% training and 20% testing sets.
+3. **Model Training:** Applied TF-IDF vectorization and trained three classifiers:
+   * Naïve Bayes
+   * Support Vector Machine (SVM)
+   * Logistic Regression
+4. **Evaluation:** Computed Precision and Recall for each model to compare performance.
 
-## (4) Methodology
-1. Data Preprocessing  
-2. EDA  
-3. Model Building  
-4. Evaluation  
-
-## (5) Results
-- Metrics and insights
-
-## (6) How to Run
-```bash
-pip install -r requirements.txt
-python main.py
-```
-
-## (7) Conclusion
-Summarize findings.
-
-## (8) Student's details
-- Name:
-- Roll No:
-- UIN:
-- YEAR: TE-AIDS
+## Repository Structure
+* `dataset.csv`: Contains the 100 labelled tweets.
+* `sentiment_analysis.ipynb`: The Python code/Jupyter notebook containing the model training and evaluation.
+* `reports/Final_Report.pdf`: The complete final report including dataset screenshots and model result comparisons.
