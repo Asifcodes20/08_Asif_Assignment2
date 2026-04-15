@@ -29,14 +29,12 @@ To collect 100 tweets related to MS Dhoni, manually tag them, apply machine lear
 ## (6) How to Run
 ```bash
 pip install -r requirements.txt
-(7) Conclusion
+
+## (7) Conclusion
 SVM, Naïve Bayes, and Logistic Regression all successfully classified the sentiment of tweets regarding MS Dhoni. SVM proved to be the most accurate model. The public sentiment reflects massive respect and admiration for his legacy, alongside minor analytical critiques.
 
-(8) Student's Details
-Name: ANSARI MOHD ASIF MOHD MUSLIM
-
-Roll No: 08
-
-UIN: 231A028
-
-YEAR: TE-AIDS
+## (8) Student's details
+- Name: Asif Ansari
+- Roll No: 08
+- UIN: 231A028
+- YEAR: TE-AIDS
